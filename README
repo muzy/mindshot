@@ -1,0 +1,34 @@
+Mindshot - Export Mindmaps into several formats
+Copyright (C) 2010 Sebastian Muszytowski
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Prerequisites:
+
+Firefox 1.5 - Firefox 3.6 (or IceWeasel)
+ (PDF Export requires Firefox 3.0 or later)
+ (PNG Export requires Firefox 2.0 or later)
+ 
+The "commandlineprint" extension (http://sites.google.com/site/torisugari/commandlineprint2)
+which ships with this software (see /extensions/cmdlnprint_0_5_2.xpi)
+
+Furthermore this software is needed:
+
+- xvfb
+- touch (normally exists on every linux system)
+- ps2pdf
+- imagemagick
+
+
+
