@@ -30,5 +30,13 @@ Furthermore this software is needed:
 - ps2pdf
 - imagemagick
 
+Configuration:
 
+1) Start Firefox (on a server you can make this possible with "ssh -X")
+2) Shut down Firefox and then edit your prefs.js file 
+    (located at ~/.mozilla/firefox/<your_profile>/prefs.js)
+3) Add the lines from firefox_config/prefs.js to the prefs.js
+4) Start Firefox again and set the default Papersize to Din A3 (landscape orientation)
+5) Install the firefox extension commandlineprint (shipped with this package)
+6) You're done
 
